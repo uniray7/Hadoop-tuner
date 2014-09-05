@@ -77,7 +77,7 @@ public:
 	void print_config()
 	{
 		TiXmlElement *conf = Conf_Xml.RootElement();
-		cout<<conf->Value()<<endl;
+//cout<<conf->Value()<<endl;
 	}
 
 

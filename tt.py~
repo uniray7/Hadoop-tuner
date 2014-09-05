@@ -1,0 +1,5 @@
+class tt:
+	def __init__(self):
+		self.t=1
+	def print(self):
+		print 1

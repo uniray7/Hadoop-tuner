@@ -1,0 +1,7 @@
+{
+	"HADOOP_HOME":"/home/trend-hadoop/hadoop-1.2.1",
+	"CONF_DIR":"/home/trend-hadoop/Hadoop-tuner/conf",
+	"XML_PARSER_DIR":"/home/trend-hadoop/Hadoop-tuner/tinyxml"
+	"LOG_DIR":"/home/trend-hadoop/Hadoop-tuner/logs"
+	"LOG_JSON_DIR":"/home/trend-hadoop/Hadoop-tuner/logs.json"
+}

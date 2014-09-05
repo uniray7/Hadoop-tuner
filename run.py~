@@ -2,6 +2,7 @@ import os
 import math
 import json
 import commands
+import tt
 Heap1 = "-Xmx"
 Heap2 = "M"
 
@@ -113,3 +114,5 @@ for para_str in ran_file:
 
 DataSize = get_inputdata_size(input_dir)
 
+test=tt.tt()
+test.printf()
