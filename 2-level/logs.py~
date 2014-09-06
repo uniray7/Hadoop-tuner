@@ -91,6 +91,40 @@ class logs_object:
 
 
 
+	def get_AllFeature_list(self):
+		feature_list = []
+		collection = self.connect_DB()
+		for job in collection.find({"job_name":self.job_name}):
+			if job['exec_time'] != -1:
+			
+				config_set = job['config_set']
+				MapHeapSize =self.HeapSizeFilter(config_set['MapHeapSize'])			
+				MapTasksMax = int(config_set['MapTasksMax'])
+				SplitSize = int(config_set['SplitSize'])/(2**20)
+				SortMB = int(config_set['SortMB'])
+				SortPer = float(config_set['SortPer'])
+				RecordPer = float(config_set['RecordPer'])
+	
+
+				ReduceHeapSize = self.HeapSizeFilter(config_set['ReduceHeapSize'])
+				ReduceTasksMax = int(config_set['ReduceTasksMax'])
+				ReduceTasksNum = int(config_set['ReduceTasksNum'])
+				ShuffleMergePer = float(config_set['ShuffleMergePer'])
+				ReduceSlowstart = float(config_set['ReduceSlowstart'])
+				inMenMergeThreshold = int(config_set['inMenMergeThreshold'])
+				ShuffleInputPer = float(config_set['ShuffleInputPer'])
+				ReduceInputPer = float(config_set['ReduceInputPer'])
+				OutputCompress = lambda : 1 if config_set['OutputCompress']=='true' else 0
+		
+				JVMReuse = int(config_set['JVMReuse'])
+			
+				feature = [MapHeapSize,MapTasksMax,SplitSize,SortMB,SortPer,RecordPer,ReduceHeapSize,ReduceTasksMax,ReduceTasksNum,ShuffleMergePer,ReduceSlowstart,inMenMergeThreshold,ShuffleInputPer,ReduceInputPer,OutputCompress(),JVMReuse,job['data_size']]
+			
+				feature_list.append(feature)
+
+		return feature_list
+
+
 	def get_MapMean_list(self):
 		terasort_coll = self.connect_DB()
 		interData_list = []

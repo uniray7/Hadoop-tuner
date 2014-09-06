@@ -33,3 +33,21 @@ def test(MapFeature_Test,RedFeature_Test):
 	return knn_Final.predict(interData_list)
 
 
+#new_model = logs.logs_object('TeraSort')
+
+#ratio1 =-200
+#MapFeature_list = new_model.get_MapFeature_list()
+#RedFeature_list =new_model.get_RedFeature_list()
+
+#MapFeature_list_test = MapFeature_list[ratio1:]
+#RedFeature_list_test = RedFeature_list[ratio1:]
+
+
+#target_list = new_model.get_target_list()
+#target_list_test = target_list[ratio1:]
+
+
+#predict_result = test(MapFeature_list_test,RedFeature_list_test)
+#print new_model.get_error_rate(target_list_test,predict_result)
+
+

@@ -5,7 +5,7 @@ from sklearn import cross_validation
 import numpy as np
 
 
-new_model = logs.logs_object('TeraSort','terasort_model')
+new_model = logs.logs_object('TeraSort')
 
 
 MapFeature_list = np.array(new_model.get_MapFeature_list())
