@@ -102,6 +102,7 @@ class Log:
 
 		
 		refine_log_data = {'job_name':raw_log_json['jobName'],'job_id':self.job_id,'config_set':refine_config_set,'data_size':self.inputdata_size,'exec_time':exec_time,'map_exec_time':map_execTime_list,'reduce_exec_time':reduce_execTime_list}
+#		print refine_log_data
 		raw_log_json_fstream.close()	
 		return refine_log_data
 

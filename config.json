@@ -2,7 +2,7 @@
 	"sample_standard_list":
 	[
 		{
-			"parameter":"MapHeapSize",
+			"abbr":"MapHeapSize",
 			"name":" mapred.map.child.java.opts ",
 			"low_bound":200,
 			"high_bound":1000,
@@ -10,7 +10,7 @@
 			"type":"heap"
 					},
 		{
-			"parameter":"MapTasksMax",
+			"abbr":"MapTasksMax",
 			"name":" mapred.tasktracker.map.tasks.maximum ",
 			"low_bound":1,
 			"high_bound":4,
@@ -18,7 +18,7 @@
 			"type":"int"
 					},
 		{
-			"parameter":"SplitSize",
+			"abbr":"SplitSize",
 			"name":" mapred.min.split.size ",
 			"low_bound":64,
 			"high_bound":256,
@@ -26,7 +26,7 @@
 			"type":"split"
 					},
 		{
-			"parameter":"SortMB",
+			"abbr":"SortMB",
 			"name":" io.sort.mb ",
 			"low_bound":100,
 			"high_bound":500,
@@ -34,7 +34,7 @@
 			"type":"int"
 					},
 		{
-			"parameter":"SortPer",
+			"abbr":"SortPer",
 			"name":" io.sort.spill.percent ",
 			"low_bound":0.5,
 			"high_bound":0.9,
@@ -42,7 +42,7 @@
 			"type":"float"
 					},
 		{
-			"parameter":"RecordPer",
+			"abbr":"RecordPer",
 			"name":" io.sort.record.percent ",
 			"low_bound":0.03, 
 			"high_bound":0.09,
@@ -51,7 +51,7 @@
 					},
 
 		{
-			"parameter":"ReduceHeapSize",
+			"abbr":"ReduceHeapSize",
 			"name":" mapred.reduce.child.java.opts ",
 			"low_bound":200,
 	 		"high_bound":1000, 
@@ -59,7 +59,7 @@
 			"type":"heap"
 					},
 		{
-			"parameter":"ReduceTasksMax",
+			"abbr":"ReduceTasksMax",
 			"name":" mapred.tasktracker.reduce.tasks.maximum ",
 			"low_bound":1,
 			"high_bound":4,
@@ -67,7 +67,7 @@
 			"type":"int"
 					},
 		{
-			"parameter":"ReduceTasksNum",
+			"abbr":"ReduceTasksNum",
 			"name":" mapred.reduce.tasks ",
 			"low_bound":1,
 			"high_bound":8,
@@ -75,7 +75,7 @@
 			"type":"int"
 					},
 		{
-			"parameter":"ShuffleMergePer",
+			"abbr":"ShuffleMergePer",
 			"name":" mapred.job.shuffle.merge.percent ",
 			"low_bound":0.4,
 			"high_bound":0.8,
@@ -83,7 +83,7 @@
 			"type":"float"
 					},
 		{
-			"parameter":"ReduceSlowstart",
+			"abbr":"ReduceSlowstart",
 			"name":" mapred.reduce.slowstart.completed.maps ",
 			"low_bound":0.03,
 			"high_bound":0.07,
@@ -91,7 +91,7 @@
 			"type":"float"
 					},
 		{
-			"parameter":"inMenMergeThreshold",
+			"abbr":"inMenMergeThreshold",
 			"name":" mapred.inmem.merge.threshold ",
 			"low_bound":800,
 			"high_bound":1200,
@@ -99,7 +99,7 @@
 			"type":"int"
 					},
 		{
-			"parameter":"ShuffleInputPer",
+			"abbr":"ShuffleInputPer",
 			"name":" mapred.job.shuffle.input.buffer.percent ",
 			"low_bound":0.5,
 			"high_bound":0.9,
@@ -107,7 +107,7 @@
 			"type":"float"
 					},
 		{
-			"parameter":"ReduceInputPer",
+			"abbr":"ReduceInputPer",
 			"name":" mapred.job.reduce.input.buffer.percent ",
 			"low_bound":0.5,
 			"high_bound":0.9,
@@ -115,7 +115,7 @@
 			"type":"float"
 					},
 		{
-			"parameter":"OutputCompress",
+			"abbr":"OutputCompress",
 			"name":" mapred.output.compress ",
 			"low_bound":"true",
 			"high_bound":"false",
@@ -123,7 +123,7 @@
 			"type":"bool"
 					},
 		{
-			"parameter":"JVMReuse",
+			"abbr":"JVMReuse",
 			"name":" mapred.job.reuse.jvm.num.tasks ",
 			"low_bound":-1,
 			"high_bound":16,

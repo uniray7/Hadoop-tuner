@@ -1,0 +1,3273 @@
+{
+  "jobID" : "job_201409012115_0010",
+  "user" : "trend-hadoop",
+  "jobName" : "TeraSort",
+  "mapTasks" : [ {
+    "startTime" : 1409931730093,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930158030,
+      "finishTime" : 1409930172747,
+      "attemptID" : "attempt_201409012115_0010_m_000000_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205375688,
+      "fileBytesWritten" : 410767278,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 15580,
+        "virtualMemoryUsage" : 1219862528,
+        "physicalMemoryUsage" : 372523008,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave3" ]
+      },
+      "hostName" : "/default-rack/Slave3"
+    } ],
+    "finishTime" : 1409931744909,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000000",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767278,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730093,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930158030,
+      "finishTime" : 1409930183104,
+      "attemptID" : "attempt_201409012115_0010_m_000001_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205374170,
+      "fileBytesWritten" : 410767278,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 19400,
+        "virtualMemoryUsage" : 1218289664,
+        "physicalMemoryUsage" : 407564288,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave3" ]
+      },
+      "hostName" : "/default-rack/Slave3"
+    } ],
+    "finishTime" : 1409931755199,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000001",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767278,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730108,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409842295695,
+      "finishTime" : 1409842311883,
+      "attemptID" : "attempt_201409012115_0010_m_000048_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 168161882,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 171545312,
+      "fileBytesWritten" : 343110883,
+      "mapInputRecords" : 1681617,
+      "mapOutputBytes" : 168161700,
+      "mapOutputRecords" : 1681617,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 3363234,
+      "mapInputBytes" : 168161700,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 17540,
+        "virtualMemoryUsage" : 1217908736,
+        "physicalMemoryUsage" : 370827264,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave4" ]
+      },
+      "hostName" : "/default-rack/Slave4"
+    } ],
+    "finishTime" : 1409931746593,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "Master" ]
+    }, {
+      "layers" : [ "default-rack", "Slave2" ]
+    }, {
+      "layers" : [ "default-rack", "Slave4" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000048",
+    "inputBytes" : 168161882,
+    "inputRecords" : 1681617,
+    "outputBytes" : 343110883,
+    "outputRecords" : 1681617
+  }, {
+    "startTime" : 1409931730109,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409842295696,
+      "finishTime" : 1409842314316,
+      "attemptID" : "attempt_201409012115_0010_m_000002_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205368144,
+      "fileBytesWritten" : 410767278,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 19880,
+        "virtualMemoryUsage" : 1217024000,
+        "physicalMemoryUsage" : 377311232,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave4" ]
+      },
+      "hostName" : "/default-rack/Slave4"
+    } ],
+    "finishTime" : 1409931749014,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000002",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767278,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730139,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409929891968,
+      "finishTime" : 1409929914882,
+      "attemptID" : "attempt_201409012115_0010_m_000003_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205370600,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 18730,
+        "virtualMemoryUsage" : 1219469312,
+        "physicalMemoryUsage" : 417828864,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave5" ]
+      },
+      "hostName" : "/default-rack/Slave5"
+    } ],
+    "finishTime" : 1409931753367,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000003",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730139,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409929891969,
+      "finishTime" : 1409929907111,
+      "attemptID" : "attempt_201409012115_0010_m_000004_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205370154,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 15780,
+        "virtualMemoryUsage" : 1216868352,
+        "physicalMemoryUsage" : 369606656,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave5" ]
+      },
+      "hostName" : "/default-rack/Slave5"
+    } ],
+    "finishTime" : 1409931745516,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000004",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730140,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409932320463,
+      "finishTime" : 1409932332329,
+      "attemptID" : "attempt_201409012115_0010_m_000049_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 168161882,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 171540742,
+      "fileBytesWritten" : 343110884,
+      "mapInputRecords" : 1681617,
+      "mapOutputBytes" : 168161700,
+      "mapOutputRecords" : 1681617,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 3363234,
+      "mapInputBytes" : 168161700,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 12990,
+        "virtualMemoryUsage" : 1219608576,
+        "physicalMemoryUsage" : 366071808,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave2" ]
+      },
+      "hostName" : "/default-rack/Slave2"
+    } ],
+    "finishTime" : 1409931742214,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "Master" ]
+    }, {
+      "layers" : [ "default-rack", "Slave1" ]
+    }, {
+      "layers" : [ "default-rack", "Slave2" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000049",
+    "inputBytes" : 168161882,
+    "inputRecords" : 1681617,
+    "outputBytes" : 343110884,
+    "outputRecords" : 1681617
+  }, {
+    "startTime" : 1409931730140,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409932320465,
+      "finishTime" : 1409932334355,
+      "attemptID" : "attempt_201409012115_0010_m_000005_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205371320,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14750,
+        "virtualMemoryUsage" : 1224327168,
+        "physicalMemoryUsage" : 373395456,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave2" ]
+      },
+      "hostName" : "/default-rack/Slave2"
+    } ],
+    "finishTime" : 1409931744329,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000005",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730228,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931644014,
+      "finishTime" : 1409931702192,
+      "attemptID" : "attempt_201409012115_0010_m_000006_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205370528,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 21280,
+        "virtualMemoryUsage" : 1208078336,
+        "physicalMemoryUsage" : 415027200,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave7" ]
+      },
+      "hostName" : "/default-rack/Slave7"
+    } ],
+    "finishTime" : 1409931788692,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000006",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730228,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931644014,
+      "finishTime" : 1409931697105,
+      "attemptID" : "attempt_201409012115_0010_m_000007_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205372006,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 19980,
+        "virtualMemoryUsage" : 1219051520,
+        "physicalMemoryUsage" : 415547392,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave7" ]
+      },
+      "hostName" : "/default-rack/Slave7"
+    } ],
+    "finishTime" : 1409931783471,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000007",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730238,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931730385,
+      "finishTime" : 1409931744091,
+      "attemptID" : "attempt_201409012115_0010_m_000008_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205370282,
+      "fileBytesWritten" : 410767278,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14640,
+        "virtualMemoryUsage" : 1217896448,
+        "physicalMemoryUsage" : 370495488,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Master" ]
+      },
+      "hostName" : "/default-rack/Master"
+    } ],
+    "finishTime" : 1409931744118,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000008",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767278,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730238,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931730386,
+      "finishTime" : 1409931745252,
+      "attemptID" : "attempt_201409012115_0010_m_000009_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205374518,
+      "fileBytesWritten" : 410767278,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14960,
+        "virtualMemoryUsage" : 1220190208,
+        "physicalMemoryUsage" : 371605504,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Master" ]
+      },
+      "hostName" : "/default-rack/Master"
+    } ],
+    "finishTime" : 1409931745327,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000009",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767278,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730267,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931290171,
+      "finishTime" : 1409931305302,
+      "attemptID" : "attempt_201409012115_0010_m_000010_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205371076,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 15120,
+        "virtualMemoryUsage" : 1216335872,
+        "physicalMemoryUsage" : 366239744,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave1" ]
+      },
+      "hostName" : "/default-rack/Slave1"
+    } ],
+    "finishTime" : 1409931745663,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000010",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730268,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931290172,
+      "finishTime" : 1409931304144,
+      "attemptID" : "attempt_201409012115_0010_m_000011_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205371144,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14700,
+        "virtualMemoryUsage" : 1209131008,
+        "physicalMemoryUsage" : 367165440,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave1" ]
+      },
+      "hostName" : "/default-rack/Slave1"
+    } ],
+    "finishTime" : 1409931744454,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000011",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931730306,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930290453,
+      "finishTime" : 1409930315993,
+      "attemptID" : "attempt_201409012115_0010_m_000012_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205371040,
+      "fileBytesWritten" : 410767075,
+      "mapInputRecords" : 2013265,
+      "mapOutputBytes" : 201326500,
+      "mapOutputRecords" : 2013265,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026530,
+      "mapInputBytes" : 201326500,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 19090,
+        "virtualMemoryUsage" : 1219383296,
+        "physicalMemoryUsage" : 409645056,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave6" ]
+      },
+      "hostName" : "/default-rack/Slave6"
+    } ],
+    "finishTime" : 1409931756006,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000012",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013265,
+    "outputBytes" : 410767075,
+    "outputRecords" : 2013265
+  }, {
+    "startTime" : 1409931730306,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930290453,
+      "finishTime" : 1409930305508,
+      "attemptID" : "attempt_201409012115_0010_m_000013_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205364798,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 15870,
+        "virtualMemoryUsage" : 1216561152,
+        "physicalMemoryUsage" : 369823744,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave6" ]
+      },
+      "hostName" : "/default-rack/Slave6"
+    } ],
+    "finishTime" : 1409931745736,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000013",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931742214,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409932332382,
+      "finishTime" : 1409932344527,
+      "attemptID" : "attempt_201409012115_0010_m_000014_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205370410,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 12160,
+        "virtualMemoryUsage" : 1221713920,
+        "physicalMemoryUsage" : 624283648,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave2" ]
+      },
+      "hostName" : "/default-rack/Slave2"
+    } ],
+    "finishTime" : 1409931754597,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000014",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931744119,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931744122,
+      "finishTime" : 1409931754743,
+      "attemptID" : "attempt_201409012115_0010_m_000015_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205368306,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 11560,
+        "virtualMemoryUsage" : 1220001792,
+        "physicalMemoryUsage" : 625659904,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Master" ]
+      },
+      "hostName" : "/default-rack/Master"
+    } ],
+    "finishTime" : 1409931755000,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000015",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931744329,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409932334497,
+      "finishTime" : 1409932345708,
+      "attemptID" : "attempt_201409012115_0010_m_000016_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205374960,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 11310,
+        "virtualMemoryUsage" : 1226432512,
+        "physicalMemoryUsage" : 627617792,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave2" ]
+      },
+      "hostName" : "/default-rack/Slave2"
+    } ],
+    "finishTime" : 1409931755806,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000016",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931744455,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931304192,
+      "finishTime" : 1409931315719,
+      "attemptID" : "attempt_201409012115_0010_m_000017_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205370912,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 11930,
+        "virtualMemoryUsage" : 1211236352,
+        "physicalMemoryUsage" : 621199360,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave1" ]
+      },
+      "hostName" : "/default-rack/Slave1"
+    } ],
+    "finishTime" : 1409931756249,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000017",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931744910,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930172846,
+      "finishTime" : 1409930186604,
+      "attemptID" : "attempt_201409012115_0010_m_000018_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205373674,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 13420,
+        "virtualMemoryUsage" : 1223020544,
+        "physicalMemoryUsage" : 593281024,
+        "heapUsage" : 573571072
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave3" ]
+      },
+      "hostName" : "/default-rack/Slave3"
+    } ],
+    "finishTime" : 1409931758840,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000018",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931745328,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931745348,
+      "finishTime" : 1409931756263,
+      "attemptID" : "attempt_201409012115_0010_m_000019_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205376450,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 11410,
+        "virtualMemoryUsage" : 1223348224,
+        "physicalMemoryUsage" : 623534080,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Master" ]
+      },
+      "hostName" : "/default-rack/Master"
+    } ],
+    "finishTime" : 1409931756510,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000019",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931745523,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409929907221,
+      "finishTime" : 1409929919726,
+      "attemptID" : "attempt_201409012115_0010_m_000020_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205370246,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 12570,
+        "virtualMemoryUsage" : 1220026368,
+        "physicalMemoryUsage" : 590508032,
+        "heapUsage" : 573571072
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave5" ]
+      },
+      "hostName" : "/default-rack/Slave5"
+    } ],
+    "finishTime" : 1409931758202,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000020",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931745664,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931305400,
+      "finishTime" : 1409931317169,
+      "attemptID" : "attempt_201409012115_0010_m_000021_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205373434,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 12060,
+        "virtualMemoryUsage" : 1219768320,
+        "physicalMemoryUsage" : 620474368,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave1" ]
+      },
+      "hostName" : "/default-rack/Slave1"
+    } ],
+    "finishTime" : 1409931757458,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000021",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931745737,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930305741,
+      "finishTime" : 1409930318404,
+      "attemptID" : "attempt_201409012115_0010_m_000022_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205376582,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 12860,
+        "virtualMemoryUsage" : 1219719168,
+        "physicalMemoryUsage" : 590565376,
+        "heapUsage" : 573571072
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave6" ]
+      },
+      "hostName" : "/default-rack/Slave6"
+    } ],
+    "finishTime" : 1409931758423,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000022",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931746594,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409842312013,
+      "finishTime" : 1409842327367,
+      "attemptID" : "attempt_201409012115_0010_m_000023_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205372134,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 15790,
+        "virtualMemoryUsage" : 1221066752,
+        "physicalMemoryUsage" : 591556608,
+        "heapUsage" : 573571072
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave4" ]
+      },
+      "hostName" : "/default-rack/Slave4"
+    } ],
+    "finishTime" : 1409931762007,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000023",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931749014,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409842314434,
+      "finishTime" : 1409842330550,
+      "attemptID" : "attempt_201409012115_0010_m_000024_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205373314,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 16600,
+        "virtualMemoryUsage" : 1220182016,
+        "physicalMemoryUsage" : 593833984,
+        "heapUsage" : 573571072
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave4" ]
+      },
+      "hostName" : "/default-rack/Slave4"
+    } ],
+    "finishTime" : 1409931765338,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000024",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931753368,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409929915067,
+      "finishTime" : 1409929930234,
+      "attemptID" : "attempt_201409012115_0010_m_000025_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205371476,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14060,
+        "virtualMemoryUsage" : 1221574656,
+        "physicalMemoryUsage" : 613175296,
+        "heapUsage" : 573571072
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave5" ]
+      },
+      "hostName" : "/default-rack/Slave5"
+    } ],
+    "finishTime" : 1409931768775,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000025",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931754597,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409932344766,
+      "finishTime" : 1409932355585,
+      "attemptID" : "attempt_201409012115_0010_m_000026_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205367236,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 11240,
+        "virtualMemoryUsage" : 1221713920,
+        "physicalMemoryUsage" : 459571200,
+        "heapUsage" : 566231040
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave2" ]
+      },
+      "hostName" : "/default-rack/Slave2"
+    } ],
+    "finishTime" : 1409931765476,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000026",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931755001,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931755004,
+      "finishTime" : 1409931766121,
+      "attemptID" : "attempt_201409012115_0010_m_000027_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205368812,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 11660,
+        "virtualMemoryUsage" : 1220001792,
+        "physicalMemoryUsage" : 461025280,
+        "heapUsage" : 566231040
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Master" ]
+      },
+      "hostName" : "/default-rack/Master"
+    } ],
+    "finishTime" : 1409931766167,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000027",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931755200,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930183134,
+      "finishTime" : 1409930198101,
+      "attemptID" : "attempt_201409012115_0010_m_000028_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205376728,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14520,
+        "virtualMemoryUsage" : 1221447680,
+        "physicalMemoryUsage" : 605040640,
+        "heapUsage" : 573571072
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave3" ]
+      },
+      "hostName" : "/default-rack/Slave3"
+    } ],
+    "finishTime" : 1409931770353,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000028",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931755807,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409932345975,
+      "finishTime" : 1409932356932,
+      "attemptID" : "attempt_201409012115_0010_m_000029_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205372302,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 11640,
+        "virtualMemoryUsage" : 1226432512,
+        "physicalMemoryUsage" : 464273408,
+        "heapUsage" : 566231040
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave2" ]
+      },
+      "hostName" : "/default-rack/Slave2"
+    } ],
+    "finishTime" : 1409931766988,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000029",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931756007,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930316011,
+      "finishTime" : 1409930331230,
+      "attemptID" : "attempt_201409012115_0010_m_000030_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205375960,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14080,
+        "virtualMemoryUsage" : 1222541312,
+        "physicalMemoryUsage" : 607121408,
+        "heapUsage" : 573571072
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave6" ]
+      },
+      "hostName" : "/default-rack/Slave6"
+    } ],
+    "finishTime" : 1409931771429,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000030",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931756250,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931315986,
+      "finishTime" : 1409931329722,
+      "attemptID" : "attempt_201409012115_0010_m_000031_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205371588,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 13160,
+        "virtualMemoryUsage" : 1211371520,
+        "physicalMemoryUsage" : 456605696,
+        "heapUsage" : 566231040
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave1" ]
+      },
+      "hostName" : "/default-rack/Slave1"
+    } ],
+    "finishTime" : 1409931770163,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000031",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931756511,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931756515,
+      "finishTime" : 1409931768300,
+      "attemptID" : "attempt_201409012115_0010_m_000032_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205373482,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 12530,
+        "virtualMemoryUsage" : 1223348224,
+        "physicalMemoryUsage" : 458944512,
+        "heapUsage" : 566231040
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Master" ]
+      },
+      "hostName" : "/default-rack/Master"
+    } ],
+    "finishTime" : 1409931768583,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000032",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931757472,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931317209,
+      "finishTime" : 1409931331202,
+      "attemptID" : "attempt_201409012115_0010_m_000033_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205376820,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 13000,
+        "virtualMemoryUsage" : 1219768320,
+        "physicalMemoryUsage" : 458235904,
+        "heapUsage" : 566231040
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave1" ]
+      },
+      "hostName" : "/default-rack/Slave1"
+    } ],
+    "finishTime" : 1409931771675,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000033",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931758203,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409929919900,
+      "finishTime" : 1409929935806,
+      "attemptID" : "attempt_201409012115_0010_m_000034_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205374188,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14650,
+        "virtualMemoryUsage" : 1220026368,
+        "physicalMemoryUsage" : 425222144,
+        "heapUsage" : 512229376
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave5" ]
+      },
+      "hostName" : "/default-rack/Slave5"
+    } ],
+    "finishTime" : 1409931774218,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000034",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931758423,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930318428,
+      "finishTime" : 1409930333607,
+      "attemptID" : "attempt_201409012115_0010_m_000035_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205371948,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14610,
+        "virtualMemoryUsage" : 1219719168,
+        "physicalMemoryUsage" : 423870464,
+        "heapUsage" : 512229376
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave6" ]
+      },
+      "hostName" : "/default-rack/Slave6"
+    } ],
+    "finishTime" : 1409931773850,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000035",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931758840,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930186775,
+      "finishTime" : 1409930210457,
+      "attemptID" : "attempt_201409012115_0010_m_000036_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205367180,
+      "fileBytesWritten" : 410767075,
+      "mapInputRecords" : 2013265,
+      "mapOutputBytes" : 201326500,
+      "mapOutputRecords" : 2013265,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026530,
+      "mapInputBytes" : 201326500,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 16840,
+        "virtualMemoryUsage" : 1223020544,
+        "physicalMemoryUsage" : 428728320,
+        "heapUsage" : 512229376
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave3" ]
+      },
+      "hostName" : "/default-rack/Slave3"
+    } ],
+    "finishTime" : 1409931782803,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000036",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013265,
+    "outputBytes" : 410767075,
+    "outputRecords" : 2013265
+  }, {
+    "startTime" : 1409931762007,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409842327426,
+      "finishTime" : 1409842343286,
+      "attemptID" : "attempt_201409012115_0010_m_000037_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205370474,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 16560,
+        "virtualMemoryUsage" : 1221066752,
+        "physicalMemoryUsage" : 426770432,
+        "heapUsage" : 512229376
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave4" ]
+      },
+      "hostName" : "/default-rack/Slave4"
+    } ],
+    "finishTime" : 1409931778059,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000037",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931765339,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409842330757,
+      "finishTime" : 1409842346364,
+      "attemptID" : "attempt_201409012115_0010_m_000038_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205371922,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 17080,
+        "virtualMemoryUsage" : 1220182016,
+        "physicalMemoryUsage" : 429285376,
+        "heapUsage" : 512229376
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave4" ]
+      },
+      "hostName" : "/default-rack/Slave4"
+    } ],
+    "finishTime" : 1409931781080,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000038",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931765477,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409932355645,
+      "finishTime" : 1409932366513,
+      "attemptID" : "attempt_201409012115_0010_m_000039_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205365940,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 10860,
+        "virtualMemoryUsage" : 1221713920,
+        "physicalMemoryUsage" : 658956288,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave2" ]
+      },
+      "hostName" : "/default-rack/Slave2"
+    } ],
+    "finishTime" : 1409931776388,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000039",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931766168,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931766171,
+      "finishTime" : 1409931778024,
+      "attemptID" : "attempt_201409012115_0010_m_000040_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205372654,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 12410,
+        "virtualMemoryUsage" : 1220001792,
+        "physicalMemoryUsage" : 658374656,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Master" ]
+      },
+      "hostName" : "/default-rack/Master"
+    } ],
+    "finishTime" : 1409931778246,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.55" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000040",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931766988,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409932357157,
+      "finishTime" : 1409932368076,
+      "attemptID" : "attempt_201409012115_0010_m_000041_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205371086,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 11070,
+        "virtualMemoryUsage" : 1226432512,
+        "physicalMemoryUsage" : 659472384,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave2" ]
+      },
+      "hostName" : "/default-rack/Slave2"
+    } ],
+    "finishTime" : 1409931778202,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000041",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931768583,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931768587,
+      "finishTime" : 1409931782749,
+      "attemptID" : "attempt_201409012115_0010_m_000042_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205365684,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 12200,
+        "virtualMemoryUsage" : 1223348224,
+        "physicalMemoryUsage" : 660418560,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Master" ]
+      },
+      "hostName" : "/default-rack/Master"
+    } ],
+    "finishTime" : 1409931782769,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000042",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931768776,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409929930474,
+      "finishTime" : 1409929944037,
+      "attemptID" : "attempt_201409012115_0010_m_000043_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205369290,
+      "fileBytesWritten" : 410767280,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 13520,
+        "virtualMemoryUsage" : 1221574656,
+        "physicalMemoryUsage" : 446353408,
+        "heapUsage" : 512753664
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave5" ]
+      },
+      "hostName" : "/default-rack/Slave5"
+    } ],
+    "finishTime" : 1409931782384,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.53" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000043",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767280,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931770163,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931329899,
+      "finishTime" : 1409931344274,
+      "attemptID" : "attempt_201409012115_0010_m_000044_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205372080,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 12370,
+        "virtualMemoryUsage" : 1211371520,
+        "physicalMemoryUsage" : 653889536,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave1" ]
+      },
+      "hostName" : "/default-rack/Slave1"
+    } ],
+    "finishTime" : 1409931784668,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000044",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931770354,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930198288,
+      "finishTime" : 1409930213643,
+      "attemptID" : "attempt_201409012115_0010_m_000045_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205370658,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 13880,
+        "virtualMemoryUsage" : 1221447680,
+        "physicalMemoryUsage" : 438276096,
+        "heapUsage" : 513277952
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave3" ]
+      },
+      "hostName" : "/default-rack/Slave3"
+    } ],
+    "finishTime" : 1409931785833,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.56" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000045",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931771429,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930331434,
+      "finishTime" : 1409930355380,
+      "attemptID" : "attempt_201409012115_0010_m_000046_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205372214,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 14770,
+        "virtualMemoryUsage" : 1222541312,
+        "physicalMemoryUsage" : 440283136,
+        "heapUsage" : 512753664
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave6" ]
+      },
+      "hostName" : "/default-rack/Slave6"
+    }, {
+      "result" : "KILLED",
+      "startTime" : 1409931788203,
+      "finishTime" : 1409931797836,
+      "attemptID" : "attempt_201409012115_0010_m_000046_1",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : -1,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : -1,
+      "fileBytesWritten" : -1,
+      "mapInputRecords" : -1,
+      "mapOutputBytes" : -1,
+      "mapOutputRecords" : -1,
+      "combineInputRecords" : -1,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : -1,
+      "mapInputBytes" : -1,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 0,
+        "virtualMemoryUsage" : 0,
+        "physicalMemoryUsage" : 0,
+        "heapUsage" : 0
+      },
+      "location" : null,
+      "hostName" : null
+    } ],
+    "finishTime" : 1409931795574,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.54" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.57" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000046",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  }, {
+    "startTime" : 1409931771676,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931331413,
+      "finishTime" : 1409931342630,
+      "attemptID" : "attempt_201409012115_0010_m_000047_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : 201330778,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : 205368382,
+      "fileBytesWritten" : 410767279,
+      "mapInputRecords" : 2013266,
+      "mapOutputBytes" : 201326600,
+      "mapOutputRecords" : 2013266,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 4026532,
+      "mapInputBytes" : 201326600,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 11180,
+        "virtualMemoryUsage" : 1219768320,
+        "physicalMemoryUsage" : 657612800,
+        "heapUsage" : 602931200
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave1" ]
+      },
+      "hostName" : "/default-rack/Slave1"
+    } ],
+    "finishTime" : 1409931783158,
+    "preferredLocations" : [ {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.52" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.50" ]
+    }, {
+      "layers" : [ "default-rack", "192\\.168\\.168\\.51" ]
+    } ],
+    "taskType" : "MAP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000047",
+    "inputBytes" : 201330778,
+    "inputRecords" : 2013266,
+    "outputBytes" : 410767279,
+    "outputRecords" : 2013266
+  } ],
+  "finishTime" : 1409931871639,
+  "reduceTasks" : [ {
+    "startTime" : 1409931744455,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409931304192,
+      "finishTime" : 1409931429114,
+      "attemptID" : "attempt_201409012115_0010_r_000000_0",
+      "shuffleFinished" : 1409931384296,
+      "sortFinished" : 1409931384307,
+      "hdfsBytesRead" : -1,
+      "hdfsBytesWritten" : 2516265100,
+      "fileBytesRead" : 2566590450,
+      "fileBytesWritten" : 2566651171,
+      "mapInputRecords" : -1,
+      "mapOutputBytes" : -1,
+      "mapOutputRecords" : -1,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : 25162651,
+      "reduceInputRecords" : 25162651,
+      "reduceShuffleBytes" : 2566590702,
+      "reduceOutputRecords" : 25162651,
+      "spilledRecords" : 25162651,
+      "mapInputBytes" : -1,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 107010,
+        "virtualMemoryUsage" : 1555030016,
+        "physicalMemoryUsage" : 1006104576,
+        "heapUsage" : 935329792
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave1" ]
+      },
+      "hostName" : "/default-rack/Slave1"
+    } ],
+    "finishTime" : 1409931869454,
+    "preferredLocations" : [ ],
+    "taskType" : "REDUCE",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_r_000000",
+    "inputBytes" : 2566590702,
+    "inputRecords" : 25162651,
+    "outputBytes" : 2516265100,
+    "outputRecords" : 25162651
+  }, {
+    "startTime" : 1409931744529,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930304534,
+      "finishTime" : 1409930424003,
+      "attemptID" : "attempt_201409012115_0010_r_000001_0",
+      "shuffleFinished" : 1409930378570,
+      "sortFinished" : 1409930378719,
+      "hdfsBytesRead" : -1,
+      "hdfsBytesWritten" : 2463159300,
+      "fileBytesRead" : 2360770050,
+      "fileBytesWritten" : 2360830771,
+      "mapInputRecords" : -1,
+      "mapOutputBytes" : -1,
+      "mapOutputRecords" : -1,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : 24631593,
+      "reduceInputRecords" : 24631593,
+      "reduceShuffleBytes" : 2512422786,
+      "reduceOutputRecords" : 24631593,
+      "spilledRecords" : 23144804,
+      "mapInputBytes" : -1,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 121230,
+        "virtualMemoryUsage" : 1555492864,
+        "physicalMemoryUsage" : 968355840,
+        "heapUsage" : 934281216
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave6" ]
+      },
+      "hostName" : "/default-rack/Slave6"
+    } ],
+    "finishTime" : 1409931864012,
+    "preferredLocations" : [ ],
+    "taskType" : "REDUCE",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_r_000001",
+    "inputBytes" : 2512422786,
+    "inputRecords" : 24631593,
+    "outputBytes" : 2463159300,
+    "outputRecords" : 24631593
+  }, {
+    "startTime" : 1409931744606,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930172541,
+      "finishTime" : 1409930293301,
+      "attemptID" : "attempt_201409012115_0010_r_000002_0",
+      "shuffleFinished" : 1409930246626,
+      "sortFinished" : 1409930246690,
+      "hdfsBytesRead" : -1,
+      "hdfsBytesWritten" : 2493868800,
+      "fileBytesRead" : 2287535478,
+      "fileBytesWritten" : 2287596199,
+      "mapInputRecords" : -1,
+      "mapOutputBytes" : -1,
+      "mapOutputRecords" : -1,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : 24938688,
+      "reduceInputRecords" : 24938688,
+      "reduceShuffleBytes" : 2543746476,
+      "reduceOutputRecords" : 24938688,
+      "spilledRecords" : 22426818,
+      "mapInputBytes" : -1,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 130510,
+        "virtualMemoryUsage" : 1551802368,
+        "physicalMemoryUsage" : 966344704,
+        "heapUsage" : 932708352
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave3" ]
+      },
+      "hostName" : "/default-rack/Slave3"
+    } ],
+    "finishTime" : 1409931865648,
+    "preferredLocations" : [ ],
+    "taskType" : "REDUCE",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_r_000002",
+    "inputBytes" : 2543746476,
+    "inputRecords" : 24938688,
+    "outputBytes" : 2493868800,
+    "outputRecords" : 24938688
+  }, {
+    "startTime" : 1409931744610,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409929906308,
+      "finishTime" : 1409930032986,
+      "attemptID" : "attempt_201409012115_0010_r_000003_0",
+      "shuffleFinished" : 1409929986103,
+      "sortFinished" : 1409929986146,
+      "hdfsBytesRead" : -1,
+      "hdfsBytesWritten" : 2526706800,
+      "fileBytesRead" : 2421689352,
+      "fileBytesWritten" : 2421750074,
+      "mapInputRecords" : -1,
+      "mapOutputBytes" : -1,
+      "mapOutputRecords" : -1,
+      "combineInputRecords" : 0,
+      "reduceInputGroups" : 25267068,
+      "reduceInputRecords" : 25267068,
+      "reduceShuffleBytes" : 2577241236,
+      "reduceOutputRecords" : 25267068,
+      "spilledRecords" : 23742052,
+      "mapInputBytes" : -1,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 123730,
+        "virtualMemoryUsage" : 1554898944,
+        "physicalMemoryUsage" : 980619264,
+        "heapUsage" : 933232640
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave5" ]
+      },
+      "hostName" : "/default-rack/Slave5"
+    } ],
+    "finishTime" : 1409931871334,
+    "preferredLocations" : [ ],
+    "taskType" : "REDUCE",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_r_000003",
+    "inputBytes" : 2577241236,
+    "inputRecords" : 25267068,
+    "outputBytes" : 2526706800,
+    "outputRecords" : 25267068
+  } ],
+  "submitTime" : 1409931728066,
+  "launchTime" : 1409931728204,
+  "totalMaps" : 50,
+  "totalReduces" : 4,
+  "otherTasks" : [ {
+    "startTime" : 1409931728274,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930156354,
+      "finishTime" : 1409930157895,
+      "attemptID" : "attempt_201409012115_0010_m_000051_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : -1,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : -1,
+      "fileBytesWritten" : 60815,
+      "mapInputRecords" : -1,
+      "mapOutputBytes" : -1,
+      "mapOutputRecords" : -1,
+      "combineInputRecords" : -1,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 0,
+      "mapInputBytes" : -1,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 160,
+        "virtualMemoryUsage" : 1218260992,
+        "physicalMemoryUsage" : 121294848,
+        "heapUsage" : 504889344
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave3" ]
+      },
+      "hostName" : "/default-rack/Slave3"
+    } ],
+    "finishTime" : 1409931730091,
+    "preferredLocations" : [ ],
+    "taskType" : "SETUP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000051",
+    "inputBytes" : -1,
+    "inputRecords" : -1,
+    "outputBytes" : -1,
+    "outputRecords" : -1
+  }, {
+    "startTime" : 1409931871336,
+    "attempts" : [ {
+      "result" : "SUCCESS",
+      "startTime" : 1409930033029,
+      "finishTime" : 1409930033261,
+      "attemptID" : "attempt_201409012115_0010_m_000050_0",
+      "shuffleFinished" : -1,
+      "sortFinished" : -1,
+      "hdfsBytesRead" : -1,
+      "hdfsBytesWritten" : -1,
+      "fileBytesRead" : -1,
+      "fileBytesWritten" : 60816,
+      "mapInputRecords" : -1,
+      "mapOutputBytes" : -1,
+      "mapOutputRecords" : -1,
+      "combineInputRecords" : -1,
+      "reduceInputGroups" : -1,
+      "reduceInputRecords" : -1,
+      "reduceShuffleBytes" : -1,
+      "reduceOutputRecords" : -1,
+      "spilledRecords" : 0,
+      "mapInputBytes" : -1,
+      "resourceUsageMetrics" : {
+        "cumulativeCpuUsage" : 40,
+        "virtualMemoryUsage" : 1221574656,
+        "physicalMemoryUsage" : 446472192,
+        "heapUsage" : 512753664
+      },
+      "location" : {
+        "layers" : [ "default-rack", "Slave5" ]
+      },
+      "hostName" : "/default-rack/Slave5"
+    } ],
+    "finishTime" : 1409931871639,
+    "preferredLocations" : [ ],
+    "taskType" : "CLEANUP",
+    "taskStatus" : "SUCCESS",
+    "taskID" : "task_201409012115_0010_m_000050",
+    "inputBytes" : -1,
+    "inputRecords" : -1,
+    "outputBytes" : -1,
+    "outputRecords" : -1
+  } ],
+  "failedReduceAttemptCDF" : {
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808,
+    "rankings" : [ ],
+    "numberValues" : 0
+  },
+  "mapperTriesToSucceed" : [ 1.0 ],
+  "failedMapperFraction" : 0.0,
+  "relativeTime" : 0,
+  "clusterMapMB" : -1,
+  "clusterReduceMB" : -1,
+  "jobMapMB" : 200,
+  "jobReduceMB" : 200,
+  "queue" : "default",
+  "jobProperties" : {
+    "fs.s3n.impl" : "org.apache.hadoop.fs.s3native.NativeS3FileSystem",
+    "mapred.task.cache.levels" : "2",
+    "mapreduce.job.restart.recover" : "true",
+    "mapreduce.job.counters.max" : "120",
+    "dfs.client.use.datanode.hostname" : "false",
+    "hadoop.tmp.dir" : "/tmp/hadoop-${user.name}",
+    "hadoop.native.lib" : "true",
+    "map.sort.class" : "org.apache.hadoop.util.QuickSort",
+    "dfs.namenode.decommission.nodes.per.interval" : "5",
+    "dfs.https.need.client.auth" : "false",
+    "dfs.datanode.drop.cache.behind.writes" : "false",
+    "ipc.client.idlethreshold" : "4000",
+    "mapred.system.dir" : "${hadoop.tmp.dir}/mapred/system",
+    "dfs.datanode.data.dir.perm" : "755",
+    "mapred.job.tracker.persist.jobstatus.hours" : "0",
+    "dfs.namenode.logging.level" : "info",
+    "dfs.datanode.address" : "0.0.0.0:50010",
+    "io.skip.checksum.errors" : "false",
+    "dfs.block.access.token.enable" : "false",
+    "fs.default.name" : "hdfs://Master:9000",
+    "mapred.cluster.reduce.memory.mb" : "-1",
+    "mapred.child.tmp" : "./tmp",
+    "fs.har.impl.disable.cache" : "true",
+    "dfs.safemode.threshold.pct" : "0.999f",
+    "mapred.skip.reduce.max.skip.groups" : "0",
+    "mapred.heartbeats.in.second" : "100",
+    "dfs.namenode.handler.count" : "10",
+    "dfs.blockreport.initialDelay" : "0",
+    "mapred.tasktracker.dns.nameserver" : "default",
+    "io.sort.factor" : "10",
+    "dfs.datanode.drop.cache.behind.reads" : "false",
+    "mapred.task.timeout" : "600000",
+    "mapred.max.tracker.failures" : "4",
+    "hadoop.rpc.socket.factory.class.default" : "org.apache.hadoop.net.StandardSocketFactory",
+    "mapred.job.tracker.jobhistory.lru.cache.size" : "5",
+    "fs.hdfs.impl" : "org.apache.hadoop.hdfs.DistributedFileSystem",
+    "mapred.queue.default.acl-administer-jobs" : "*",
+    "dfs.namenode.stale.datanode.interval" : "30000",
+    "mapred.output.key.class" : "org.apache.hadoop.io.Text",
+    "dfs.block.access.key.update.interval" : "600",
+    "mapred.skip.map.auto.incr.proc.count" : "true",
+    "mapreduce.job.complete.cancel.delegation.tokens" : "true",
+    "io.mapfile.bloom.size" : "1048576",
+    "mapreduce.reduce.shuffle.connect.timeout" : "180000",
+    "dfs.safemode.extension" : "30000",
+    "mapred.jobtracker.blacklist.fault-timeout-window" : "180",
+    "dfs.namenode.write.stale.datanode.ratio" : "0.5f",
+    "hadoop.skip.worker.version.check" : "false",
+    "tasktracker.http.threads" : "40",
+    "net.topology.impl" : "org.apache.hadoop.net.NetworkTopology",
+    "mapred.job.shuffle.merge.percent" : "0.4",
+    "fs.ftp.impl" : "org.apache.hadoop.fs.ftp.FTPFileSystem",
+    "user.name" : "trend-hadoop",
+    "dfs.namenode.kerberos.internal.spnego.principal" : "${dfs.web.authentication.kerberos.principal}",
+    "mapred.output.compress" : "true",
+    "io.bytes.per.checksum" : "512",
+    "mapred.combine.recordsBeforeProgress" : "10000",
+    "mapred.healthChecker.script.timeout" : "600000",
+    "mapred.cache.files.filesizes" : "210",
+    "topology.node.switch.mapping.impl" : "org.apache.hadoop.net.ScriptBasedMapping",
+    "dfs.https.server.keystore.resource" : "ssl-server.xml",
+    "mapred.reduce.slowstart.completed.maps" : "0.07",
+    "mapred.reduce.max.attempts" : "4",
+    "dfs.namenode.safemode.min.datanodes" : "0",
+    "mapreduce.ifile.readahead.bytes" : "4194304",
+    "fs.ramfs.impl" : "org.apache.hadoop.fs.InMemoryFileSystem",
+    "dfs.block.access.token.lifetime" : "600",
+    "mapred.skip.map.max.skip.records" : "0",
+    "dfs.name.edits.dir" : "${dfs.name.dir}",
+    "mapred.cluster.map.memory.mb" : "-1",
+    "hadoop.security.group.mapping" : "org.apache.hadoop.security.ShellBasedUnixGroupsMapping",
+    "mapred.job.tracker.persist.jobstatus.dir" : "/jobtracker/jobsInfo",
+    "mapred.jar" : "hdfs://Master:9000/tmp/hadoop-trend-hadoop/mapred/staging/trend-hadoop/.staging/job_201409012115_0010/job.jar",
+    "fs.s3.buffer.dir" : "${hadoop.tmp.dir}/s3",
+    "dfs.block.size" : "67108864",
+    "job.end.retry.attempts" : "0",
+    "fs.file.impl" : "org.apache.hadoop.fs.LocalFileSystem",
+    "dfs.namenode.avoid.write.stale.datanode" : "false",
+    "dfs.datanode.max.xcievers" : "4096",
+    "mapred.local.dir.minspacestart" : "0",
+    "mapred.output.compression.type" : "RECORD",
+    "dfs.datanode.ipc.address" : "0.0.0.0:50020",
+    "dfs.permissions" : "true",
+    "topology.script.number.args" : "100",
+    "mapreduce.job.counters.groups.max" : "50",
+    "io.mapfile.bloom.error.rate" : "0.005",
+    "mapred.cluster.max.reduce.memory.mb" : "-1",
+    "mapred.max.tracker.blacklists" : "4",
+    "mapred.task.profile.maps" : "0-2",
+    "mapred.jobtracker.jobSchedulable" : "org.apache.hadoop.mapred.JobSchedulable",
+    "dfs.datanode.https.address" : "0.0.0.0:50475",
+    "mapred.userlog.retain.hours" : "24",
+    "dfs.secondary.http.address" : "0.0.0.0:50090",
+    "dfs.namenode.replication.work.multiplier.per.iteration" : "2",
+    "dfs.replication.max" : "512",
+    "mapred.job.tracker.persist.jobstatus.active" : "false",
+    "hadoop.security.authorization" : "false",
+    "local.cache.size" : "10737418240",
+    "mapred.min.split.size" : "201326592",
+    "dfs.namenode.delegation.token.renew-interval" : "86400000",
+    "mapred.map.tasks" : "50",
+    "mapred.child.java.opts" : "-Xmx200m",
+    "mapred.partitioner.class" : "org.apache.hadoop.examples.terasort.TeraSort$TotalOrderPartitioner",
+    "mapred.output.value.class" : "org.apache.hadoop.io.Text",
+    "dfs.https.client.keystore.resource" : "ssl-client.xml",
+    "ipc.client.fallback-to-simple-auth-allowed" : "false",
+    "mapred.job.queue.name" : "default",
+    "mapred.job.tracker.retiredjobs.cache.size" : "1000",
+    "dfs.https.address" : "0.0.0.0:50470",
+    "dfs.balance.bandwidthPerSec" : "1048576",
+    "ipc.server.listen.queue.size" : "128",
+    "dfs.namenode.invalidate.work.pct.per.iteration" : "0.32f",
+    "mapred.inmem.merge.threshold" : "800",
+    "job.end.retry.interval" : "30000",
+    "mapred.skip.attempts.to.start.skipping" : "2",
+    "mapreduce.tasktracker.outofband.heartbeat.damper" : "1000000",
+    "hadoop.security.use-weak-http-crypto" : "false",
+    "fs.checkpoint.dir" : "${hadoop.tmp.dir}/dfs/namesecondary",
+    "dfs.namenode.avoid.read.stale.datanode" : "false",
+    "mapred.reduce.tasks" : "4",
+    "mapred.merge.recordsBeforeProgress" : "10000",
+    "mapred.userlog.limit.kb" : "0",
+    "mapred.job.reduce.memory.mb" : "-1",
+    "webinterface.private.actions" : "false",
+    "dfs.max.objects" : "0",
+    "hadoop.security.token.service.use_ip" : "true",
+    "io.sort.spill.percent" : "0.8",
+    "mapred.job.shuffle.input.buffer.percent" : "0.9",
+    "mapred.map.tasks.speculative.execution" : "true",
+    "hadoop.http.authentication.type" : "simple",
+    "mapred.job.name" : "TeraSort",
+    "hadoop.util.hash.type" : "murmur",
+    "dfs.datanode.dns.nameserver" : "default",
+    "hadoop.security.instrumentation.requires.admin" : "false",
+    "dfs.blockreport.intervalMsec" : "3600000",
+    "dfs.datanode.readahead.bytes" : "4193404",
+    "mapred.map.max.attempts" : "4",
+    "mapreduce.job.acl-view-job" : " ",
+    "mapreduce.ifile.readahead" : "true",
+    "mapred.jobtracker.nodegroup.aware" : "false",
+    "mapred.job.tracker.handler.count" : "10",
+    "dfs.client.block.write.retries" : "3",
+    "mapred.input.format.class" : "org.apache.hadoop.examples.terasort.TeraInputFormat",
+    "mapreduce.reduce.shuffle.read.timeout" : "180000",
+    "mapred.tasktracker.expiry.interval" : "600000",
+    "dfs.secondary.namenode.kerberos.internal.spnego.principal" : "${dfs.web.authentication.kerberos.principal}",
+    "dfs.https.enable" : "false",
+    "mapred.jobtracker.job.history.block.size" : "3145728",
+    "mapred.jobtracker.maxtasks.per.job" : "-1",
+    "keep.failed.task.files" : "false",
+    "dfs.datanode.use.datanode.hostname" : "false",
+    "mapred.output.format.class" : "org.apache.hadoop.examples.terasort.TeraOutputFormat",
+    "dfs.datanode.failed.volumes.tolerated" : "0",
+    "ipc.client.tcpnodelay" : "false",
+    "mapred.task.profile.reduces" : "0-2",
+    "io.map.index.skip" : "0",
+    "mapred.output.compression.codec" : "org.apache.hadoop.io.compress.DefaultCodec",
+    "hadoop.http.authentication.token.validity" : "36000",
+    "ipc.server.tcpnodelay" : "false",
+    "hadoop.jetty.logs.serve.aliases" : "true",
+    "mapred.working.dir" : "hdfs://Master:9000/user/trend-hadoop",
+    "mapred.jobtracker.blacklist.fault-bucket-width" : "15",
+    "dfs.namenode.delegation.key.update-interval" : "86400000",
+    "mapred.used.genericoptionsparser" : "true",
+    "mapred.job.map.memory.mb" : "-1",
+    "dfs.default.chunk.view.size" : "32768",
+    "hadoop.logfile.size" : "10000000",
+    "mapred.cache.files.timestamps" : "1409931727053",
+    "mapred.reduce.tasks.speculative.execution" : "true",
+    "mapreduce.tasktracker.outofband.heartbeat" : "false",
+    "mapreduce.job.dir" : "hdfs://Master:9000/tmp/hadoop-trend-hadoop/mapred/staging/trend-hadoop/.staging/job_201409012115_0010",
+    "mapreduce.reduce.input.limit" : "-1",
+    "dfs.datanode.du.reserved" : "0",
+    "dfs.datanode.sync.behind.writes" : "false",
+    "hadoop.security.authentication" : "simple",
+    "fs.checkpoint.period" : "3600",
+    "mapred.job.reuse.jvm.num.tasks" : "16",
+    "dfs.web.ugi" : "webuser,webgroup",
+    "mapred.jobtracker.completeuserjobs.maximum" : "100",
+    "dfs.df.interval" : "60000",
+    "mapred.task.tracker.task-controller" : "org.apache.hadoop.mapred.DefaultTaskController",
+    "dfs.data.dir" : "${hadoop.tmp.dir}/dfs/data",
+    "fs.s3.maxRetries" : "4",
+    "dfs.datanode.dns.interface" : "default",
+    "mapred.cluster.max.map.memory.mb" : "-1",
+    "mapreduce.reduce.shuffle.maxfetchfailures" : "10",
+    "mapred.map.child.java.opts" : "-Xmx600M",
+    "mapreduce.job.acl-modify-job" : " ",
+    "fs.hftp.impl" : "org.apache.hadoop.hdfs.HftpFileSystem",
+    "mapred.local.dir" : "${hadoop.tmp.dir}/mapred/local",
+    "dfs.permissions.supergroup" : "supergroup",
+    "fs.s3.sleepTimeSeconds" : "10",
+    "fs.trash.interval" : "0",
+    "mapred.submit.replication" : "10",
+    "dfs.replication.min" : "1",
+    "fs.har.impl" : "org.apache.hadoop.fs.HarFileSystem",
+    "hadoop.relaxed.worker.version.check" : "false",
+    "mapred.map.output.compression.codec" : "org.apache.hadoop.io.compress.DefaultCodec",
+    "mapreduce.job.cache.files.visibilities" : "true",
+    "mapred.tasktracker.dns.interface" : "default",
+    "dfs.http.address" : "0.0.0.0:50070",
+    "dfs.namenode.decommission.interval" : "30",
+    "mapred.cache.files" : "hdfs://Master:9000/tera-in/_partition.lst#_partition.lst",
+    "mapred.job.tracker" : "Master:9001",
+    "dfs.heartbeat.interval" : "3",
+    "hadoop.http.authentication.signature.secret.file" : "${user.home}/hadoop-http-auth-signature-secret",
+    "io.seqfile.sorter.recordlimit" : "1000000",
+    "mapreduce.job.submithost" : "Master",
+    "dfs.name.dir" : "${hadoop.tmp.dir}/dfs/name",
+    "mapred.jobtracker.taskScheduler" : "org.apache.hadoop.mapred.JobQueueTaskScheduler",
+    "mapred.line.input.format.linespermap" : "1",
+    "mapred.create.symlink" : "yes",
+    "dfs.datanode.http.address" : "0.0.0.0:50075",
+    "fs.webhdfs.impl" : "org.apache.hadoop.hdfs.web.WebHdfsFileSystem",
+    "mapred.local.dir.minspacekill" : "0",
+    "dfs.image.transfer.bandwidthPerSec" : "0",
+    "dfs.replication.interval" : "3",
+    "io.sort.record.percent" : "0.07",
+    "hadoop.http.authentication.kerberos.principal" : "HTTP/localhost@LOCALHOST",
+    "fs.kfs.impl" : "org.apache.hadoop.fs.kfs.KosmosFileSystem",
+    "mapred.tasktracker.reduce.tasks.maximum" : "1",
+    "mapred.temp.dir" : "${hadoop.tmp.dir}/mapred/temp",
+    "dfs.replication" : "1",
+    "fs.checkpoint.edits.dir" : "${fs.checkpoint.dir}",
+    "mapreduce.jobhistory.max-age-ms" : "2592000000",
+    "mapred.tasktracker.tasks.sleeptime-before-sigkill" : "5000",
+    "mapred.job.reduce.input.buffer.percent" : "0.6",
+    "mapred.tasktracker.indexcache.mb" : "10",
+    "dfs.webhdfs.enabled" : "false",
+    "mapreduce.job.split.metainfo.maxsize" : "10000000",
+    "hadoop.logfile.count" : "10",
+    "mapred.skip.reduce.auto.incr.proc.count" : "true",
+    "mapreduce.job.submithostaddress" : "192.168.168.50",
+    "terasort.final.sync" : "true",
+    "io.seqfile.compress.blocksize" : "1000000",
+    "fs.s3.block.size" : "67108864",
+    "mapred.tasktracker.taskmemorymanager.monitoring-interval" : "5000",
+    "hadoop.http.authentication.simple.anonymous.allowed" : "true",
+    "mapreduce.jobtracker.staging.root.dir" : "${hadoop.tmp.dir}/mapred/staging",
+    "mapred.acls.enabled" : "false",
+    "mapred.queue.default.state" : "RUNNING",
+    "mapred.queue.names" : "default",
+    "fs.hsftp.impl" : "org.apache.hadoop.hdfs.HsftpFileSystem",
+    "dfs.access.time.precision" : "3600000",
+    "mapred.task.tracker.http.address" : "0.0.0.0:50060",
+    "io.seqfile.lazydecompress" : "true",
+    "mapred.reduce.parallel.copies" : "5",
+    "mapred.disk.healthChecker.interval" : "60000",
+    "mapred.output.dir" : "hdfs://Master:9000/tera-out",
+    "ipc.client.connection.maxidletime" : "10000",
+    "io.sort.mb" : "200",
+    "mapred.reduce.child.java.opts" : "-Xmx900M",
+    "mapred.task.tracker.report.address" : "127.0.0.1:0",
+    "hadoop.security.uid.cache.secs" : "14400",
+    "mapred.compress.map.output" : "false",
+    "ipc.client.kill.max" : "10",
+    "mapred.healthChecker.interval" : "60000",
+    "ipc.client.connect.max.retries" : "10",
+    "fs.s3.impl" : "org.apache.hadoop.fs.s3.S3FileSystem",
+    "mapred.user.jobconf.limit" : "5242880",
+    "mapreduce.job.counters.group.name.max" : "128",
+    "mapred.job.tracker.http.address" : "0.0.0.0:50030",
+    "mapred.input.dir" : "hdfs://Master:9000/tera-in",
+    "io.file.buffer.size" : "4096",
+    "mapred.jobtracker.restart.recover" : "false",
+    "io.serializations" : "org.apache.hadoop.io.serializer.WritableSerialization",
+    "mapred.task.profile" : "false",
+    "dfs.datanode.handler.count" : "3",
+    "mapreduce.input.num.files" : "2",
+    "mapreduce.jobhistory.cleaner.interval-ms" : "86400000",
+    "dfs.replication.considerLoad" : "true",
+    "jobclient.output.filter" : "FAILED",
+    "dfs.namenode.edits.toleration.length" : "0",
+    "hadoop.http.authentication.kerberos.keytab" : "${user.home}/hadoop.keytab",
+    "dfs.namenode.delegation.token.max-lifetime" : "604800000",
+    "mapred.tasktracker.map.tasks.maximum" : "4",
+    "fs.checkpoint.size" : "67108864",
+    "io.compression.codecs" : "org.apache.hadoop.io.compress.DefaultCodec,org.apache.hadoop.io.compress.GzipCodec,org.apache.hadoop.io.compress.BZip2Codec,org.apache.hadoop.io.compress.SnappyCodec",
+    "mapreduce.job.counters.counter.name.max" : "64"
+  },
+  "computonsPerMapInputByte" : -1,
+  "computonsPerMapOutputByte" : -1,
+  "computonsPerReduceInputByte" : -1,
+  "computonsPerReduceOutputByte" : -1,
+  "heapMegabytes" : 200,
+  "outcome" : "SUCCESS",
+  "jobtype" : "JAVA",
+  "directDependantJobs" : [ ],
+  "successfulMapAttemptCDFs" : [ {
+    "maximum" : 16188,
+    "minimum" : 11866,
+    "rankings" : [ {
+      "datum" : 11866,
+      "relativeRanking" : 0.05
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.1
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.15
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.2
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.25
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.3
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.35
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.4
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.45
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.5
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.55
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.6
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.65
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.7
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.75
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.8
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.85
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.9
+    }, {
+      "datum" : 11866,
+      "relativeRanking" : 0.95
+    } ],
+    "numberValues" : 2
+  }, {
+    "maximum" : 58178,
+    "minimum" : 10621,
+    "rankings" : [ {
+      "datum" : 10819,
+      "relativeRanking" : 0.05
+    }, {
+      "datum" : 10915,
+      "relativeRanking" : 0.1
+    }, {
+      "datum" : 11117,
+      "relativeRanking" : 0.15
+    }, {
+      "datum" : 11217,
+      "relativeRanking" : 0.2
+    }, {
+      "datum" : 11785,
+      "relativeRanking" : 0.25
+    }, {
+      "datum" : 12145,
+      "relativeRanking" : 0.3
+    }, {
+      "datum" : 12663,
+      "relativeRanking" : 0.35
+    }, {
+      "datum" : 13736,
+      "relativeRanking" : 0.4
+    }, {
+      "datum" : 13890,
+      "relativeRanking" : 0.45
+    }, {
+      "datum" : 14162,
+      "relativeRanking" : 0.5
+    }, {
+      "datum" : 14717,
+      "relativeRanking" : 0.55
+    }, {
+      "datum" : 14967,
+      "relativeRanking" : 0.6
+    }, {
+      "datum" : 15142,
+      "relativeRanking" : 0.65
+    }, {
+      "datum" : 15179,
+      "relativeRanking" : 0.7
+    }, {
+      "datum" : 15355,
+      "relativeRanking" : 0.75
+    }, {
+      "datum" : 15860,
+      "relativeRanking" : 0.8
+    }, {
+      "datum" : 16116,
+      "relativeRanking" : 0.85
+    }, {
+      "datum" : 23682,
+      "relativeRanking" : 0.9
+    }, {
+      "datum" : 25074,
+      "relativeRanking" : 0.95
+    } ],
+    "numberValues" : 48
+  }, {
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808,
+    "rankings" : [ ],
+    "numberValues" : 0
+  }, {
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808,
+    "rankings" : [ ],
+    "numberValues" : 0
+  } ],
+  "failedMapAttemptCDFs" : [ {
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808,
+    "rankings" : [ ],
+    "numberValues" : 0
+  }, {
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808,
+    "rankings" : [ ],
+    "numberValues" : 0
+  }, {
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808,
+    "rankings" : [ ],
+    "numberValues" : 0
+  }, {
+    "maximum" : 9223372036854775807,
+    "minimum" : -9223372036854775808,
+    "rankings" : [ ],
+    "numberValues" : 0
+  } ],
+  "successfulReduceAttemptCDF" : {
+    "maximum" : 126678,
+    "minimum" : 119469,
+    "rankings" : [ {
+      "datum" : 119469,
+      "relativeRanking" : 0.05
+    }, {
+      "datum" : 119469,
+      "relativeRanking" : 0.1
+    }, {
+      "datum" : 119469,
+      "relativeRanking" : 0.15
+    }, {
+      "datum" : 119469,
+      "relativeRanking" : 0.2
+    }, {
+      "datum" : 119469,
+      "relativeRanking" : 0.25
+    }, {
+      "datum" : 119469,
+      "relativeRanking" : 0.3
+    }, {
+      "datum" : 119469,
+      "relativeRanking" : 0.35
+    }, {
+      "datum" : 119469,
+      "relativeRanking" : 0.4
+    }, {
+      "datum" : 119469,
+      "relativeRanking" : 0.45
+    }, {
+      "datum" : 120760,
+      "relativeRanking" : 0.5
+    }, {
+      "datum" : 120760,
+      "relativeRanking" : 0.55
+    }, {
+      "datum" : 120760,
+      "relativeRanking" : 0.6
+    }, {
+      "datum" : 120760,
+      "relativeRanking" : 0.65
+    }, {
+      "datum" : 120760,
+      "relativeRanking" : 0.7
+    }, {
+      "datum" : 124922,
+      "relativeRanking" : 0.75
+    }, {
+      "datum" : 124922,
+      "relativeRanking" : 0.8
+    }, {
+      "datum" : 124922,
+      "relativeRanking" : 0.85
+    }, {
+      "datum" : 124922,
+      "relativeRanking" : 0.9
+    }, {
+      "datum" : 124922,
+      "relativeRanking" : 0.95
+    } ],
+    "numberValues" : 4
+  },
+  "priority" : "NORMAL"
+}

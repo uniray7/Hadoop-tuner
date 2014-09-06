@@ -2,6 +2,8 @@ import os
 import math
 import json
 import commands
+import ParseLog
+
 Heap1 = "-Xmx"
 Heap2 = "M"
 
@@ -34,12 +36,12 @@ def rm_conf_dir():
 	os.system(cmd)
 
 def rm_hdfs_output(output_dir):
-	cmd = 'hadoop fs -rmr '+output_path
+	cmd = 'hadoop fs -rmr '+output_dir
 	os.system(cmd)
 
 
 def get_hdfs_log(output_dir,serial_num):
-	cmd = 'hadoop fs -get '+output_dir+'/_logs '+LOG_DIR+'/logs_'+serial_num
+	cmd = 'hadoop fs -get '+output_dir+'/_logs '+LOG_DIR+'/log_'+serial_num
 	os.system(cmd)	
 
 
@@ -52,8 +54,10 @@ def get_inputdata_size(input_dir):
 	cmd = "hadoop fs -dus "+input_dir
 	result = commands.getoutput(cmd)
 	result = result.split('\t')
-	DataSize = int(result[1])/(2**30)
+	DataSize = int(result[1])/(2**20)
 	return DataSize
+
+
 
 
 
@@ -65,14 +69,17 @@ def run_job(input_dir, output_dir, config_values):
 
 
 	cmd = 'hadoop --config '+CONF_DIR+'/conf_new jar '+HADOOP_HOME+'/hadoop-examples* terasort '+input_dir+' '+output_dir
-#	os.system(cmd)
+	os.system(cmd)
 
 
 	log_serial_num = gen_log_serial_num()
 	get_hdfs_log(output_dir,log_serial_num)				
 
 	rm_conf_dir()
-
+	rm_hdfs_output(output_dir)
+	
+	log_path = LOG_DIR+'/log_'+log_serial_num
+	return log_path
 
 
 
@@ -85,10 +92,10 @@ configs = extract_configs()
 PATHs_file = open('environment.json','r')
 PATHs = json.load(PATHs_file)
 
-HADOOP_HOME = PATHs["HADOOP_HOME"]
-CONF_DIR = PATHs["CONF_DIR"]
-XML_PARSER_DIR = PATHs["XML_PARSER_DIR"]
-LOG_DIR = PATHs["LOG_DIR"]
+HADOOP_HOME = PATHs['HADOOP_HOME']
+CONF_DIR = PATHs['CONF_DIR']
+XML_PARSER_DIR = PATHs['XML_PARSER_DIR']
+LOG_DIR = PATHs['LOG_DIR']
 
 
 #Whether the model of the application is existed or not
@@ -102,14 +109,28 @@ LOG_DIR = PATHs["LOG_DIR"]
 #	random_config_paras = random_gen(configs)
 #	run_job(input_dir,output_dir,random_config_paras)
 
+
+
+
+###augements#############
 input_dir = '/tera-in'
 output_dir = '/tera-out'
+#########################
+
 
 ran_file = open('random_file','r')
 num=0
 for para_str in ran_file:
 	data_list = json.loads(para_str)
-#	run_job(input_dir,output_dir,data_list)
+	
+	#run a job, after the job finishing, get log directory path
+	#start to deal with the log
+	#log_path=run_job(input_dir,output_dir,data_list)
+	log_path = LOG_DIR+'/log_0'	
+	inputdata_size = get_inputdata_size(input_dir)
 
-DataSize = get_inputdata_size(input_dir)
+	job_log = ParseLog.Log(log_path,inputdata_size)
+	job_log.Raw_to_RawJson()
+	job_log.RefineJson_SaveIn_DB()
+
 
